@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slave Auction</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('.bid').click(function () {
+      prompt("Bid Amount")
+      alert("Your bid has been placed")
+    })
+  })
+  </script>
+  <style>
+    .offer {
+      width: 400px;
+      border: 2px solid black;
+      padding: 20px;
+      margin: 20px;
+      /*margin-right: 100px;*/
+    }
+    .offertitle {
+      font-size: 50px;
+      font-weight: bold;
+    }
+    .btn-success {
+      background-color: #f7f7f9;
+      border-color: #000;
+      color: #000;
+    }
+    .btn-success:hover {
+      background-color: #f7f7f9;
+      border-color: #000;
+      color: #000;
+    }
+    body {
+      font-family: 'Cutive Mono', monospace;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    #title {
+      font-size: 110px;
+    }
+    .top {
+      width: 100%;
+    }
+  </style>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col-md-12 mx-auto text-center"><h1 id="title">SLAVE AUCTION</h1></div>
+
+    </div>
+    <br><br><br><br>
+    <div class="row">
+      <div class="col-md-3 mx-auto">
+        <div class="offer text-center">
+          <h4 class="offertitle">Adult. 22.</h4>
+          <br>
+          <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmwo7EbZ3j80KNVjrLMNZ59XuG_WgwW1WBP7TfdJ46dLlVoJl" alt="">
+          <br><br>
+          <p class="bold">Current Bid: $4.36</p>
+          <a class="btn btn-success bid">Place Bid</a>
+        </div>
+      </div>
+      <div class="col-md-3 mx-auto">
+        <div class="offer text-center">
+          <h4 class="offertitle">Child. 13.</h4>
+          <br>
+          <img class="img-fluid" src="http://i8.photobucket.com/albums/a13/jdosh/beetlejuice.jpg" alt=""><br><br>
+          <p class="bold">Current Bid: $.01</p>
+          <a class="btn btn-success bid">Place Bid</a>
+        </div>
+      </div>
+      <div class="col-md-3 mx-auto">
+        <div class="offer text-center">
+          <h4 class="offertitle">Adult. 19.</h4>
+          <br>
+          <img src="https://images-na.ssl-images-amazon.com/images/I/211awhyXSaL._UX250_.jpg" alt="" class="img-fluid"><br><br>
+          <p class="bold">Current Bid: $.75</p>
+          <a class="btn btn-success bid">Place Bid</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 mx-auto">
+        <div class="offer text-center">
+          <h4 class="offertitle">Adult. 65.</h4>
+          <br>
+          <img class="img-fluid" src="https://thoughtcatalog.files.wordpress.com/2013/06/dkfjfdj-whoopi-584.jpg?w=584&h=880" alt=""><br>
+          <br>
+          <p class="bold">Current Bid: $.01</p>
+          <a class="btn btn-success bid">Place Bid</a>
+        </div>
+      </div>
+      <div class="col-md-3 mx-auto">
+        <div class="offer text-center">
+          <h4 class="offertitle">Adult. 53.</h4>
+          <br>
+          <img class="img-fluid" src="https://static3.fjcdn.com/thumbnails/comments/Blank+_6f751947d0fdd3b52f19a3cd732a6079.jpg" alt=""><br><br>
+          <p class="bold">Current Bid: $307.56</p>
+          <a class="btn btn-success bid">Place Bid</a>
+        </div>
+      </div>
+      <div class="col-md-3 mx-auto">
+        <div class="offer text-center">
+          <h4 class="offertitle">Child. 7.</h4>
+          <br>
+          <img src="https://naij-ask.gencdn.com/questions/24164-5c0048-27-401x393.jpg" alt="" class="img-fluid"><br><br>
+          <p class="bold">Current Bid: $.75</p>
+          <a class="btn btn-success bid">Place Bid</a>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</body>
+</html>
